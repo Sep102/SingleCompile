@@ -115,7 +115,7 @@ function! s:Expand(str, ...) " expand the string{{{2
 
     let l:rep_dict_suffix = {
                 \'\$(FILE_NAME)\$': '',
-                \'\$(FILE_TITLE)\$': '',
+                \'\$(FILE_TITLE)\$': '.out',
                 \'\$(FILE_PATH)\$': ''}
 
     if has('win32') || has('os2')
